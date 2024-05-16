@@ -1,0 +1,146 @@
+
+
+
+
+#image img {
+    height: auto;
+    width: 120px;
+    margin-right: 50px;
+    justify-content: left;
+    display: flex;
+    position:relative; left: 400px;
+        bottom:180px;
+    
+}
+
+.top_header {
+    background-color: rgb(31,41,55);
+    color: white;
+    font-size: 15px;
+    
+    
+}
+
+#Logo {
+    margin-top: 17px;
+    color: red;
+    font-size: 20px;
+    justify-content: left;
+    align-self: flex-start;
+    border-right: 40px;
+    margin-right: 90px;
+    display:inline-block;
+    
+}
+
+.Header#Top {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    color: aquamarine;
+    
+
+}
+
+.Header#Bottom {
+    display: flex;
+    flex-direction:column;
+    justify-content: left;
+    color: aquamarine;
+    text-align: left;
+    margin-left: 55px;
+    overflow: hidden;
+    
+    
+    
+    
+    
+
+}
+.ttop{
+    color:yellow;
+    text-align: left;
+    width:200px;
+    justify-content: center;
+    
+        
+     
+
+
+}
+
+button {
+    height: 35px;
+    width: 90px;
+}
+
+.second_header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+#second_header_anchor h1{
+    color:blueviolet;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    position:relative; right: auto;
+    display: flex;
+    
+
+}
+
+#lake{
+    display: flexbox;
+}
+
+#pond1{
+    display: flex
+}
+
+#pond2{
+    display: flex;
+    justify-content: center;
+}
+
+#square_box{
+    
+    border: 5px;
+    border-color: blue;
+    border-style:solid;
+    width: 100px;
+    height: 100px;
+    color:red;
+    margin: 20px;
+    flex-direction: row;
+    border-radius: 8px;
+    display: block;
+    
+}
+
+.subtext{
+    font-size: x-small;
+    color:red;
+    
+    
+    
+}
+
+#pond2 p{
+    font-size: x-small;
+    color:blue;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+    
+
+
+    
+    
+}
+
