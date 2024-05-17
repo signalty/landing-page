@@ -4,12 +4,16 @@
 
 #image img {
     height: auto;
-    width: 120px;
-    margin-right: 50px;
-    justify-content: left;
-    display: flex;
-    position:relative; left: 400px;
-        bottom:180px;
+    width: 325px;
+    
+}
+
+#image{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    position:relative; bottom: 225px;
+    margin-right: 60px;
     
 }
 
@@ -22,9 +26,10 @@
 }
 
 #Logo {
-    margin-top: 17px;
-    color: red;
-    font-size: 20px;
+    margin-top: 15px;
+    color: #f9faf8 ;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
     justify-content: left;
     align-self: flex-start;
     border-right: 40px;
@@ -37,29 +42,32 @@
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
-    align-items: flex-end;
-    color: aquamarine;
+    align-items: center;
+    color: #e5e7eb;
+    font-size: 18px;
     
 
 }
 
-.Header#Bottom {
+#bottom_header {
     display: flex;
-    flex-direction:column;
-    justify-content: left;
+    flex-direction:row;
+    justify-content:space-evenly;
     color: aquamarine;
     text-align: left;
     margin-left: 55px;
-    overflow: hidden;
-    
-    
-    
-    
     
 
 }
+
+#top_lake{
+    width: 160px;
+    padding:30px;
+
+}
+
 .ttop{
-    color:yellow;
+    color: #f9faf8;
     text-align: left;
     width:200px;
     justify-content: center;
@@ -84,18 +92,20 @@ button {
 }
 
 #second_header_anchor h1{
-    color:blueviolet;
+    color:#1f2937;
+    font-size: 36px;
     align-self: center;
     justify-content: center;
     text-align: center;
     position:relative; right: auto;
     display: flex;
     
-
 }
 
 #lake{
     display: flexbox;
+    border: 30px;
+    padding: 60px;
 }
 
 #pond1{
@@ -110,7 +120,7 @@ button {
 #square_box{
     
     border: 5px;
-    border-color: blue;
+    border-color: #3882f6;
     border-style:solid;
     width: 100px;
     height: 100px;
@@ -125,22 +135,115 @@ button {
 .subtext{
     font-size: x-small;
     color:red;
-    
-    
-    
 }
 
 #pond2 p{
     font-size: x-small;
-    color:blue;
+    color:#080808;
+    font-family: Arial, Helvetica, sans-serif;
     align-self: center;
     justify-content: center;
     text-align: center;
     width: 150px;
-    
+}
 
 
-    
+.third_header{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    border-top: 30px;
+    padding: 60px;
+    flex-direction: column; 
+}
+
+.quote{
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight:lighter;
+    font: #1f2937;
+}
+
+.quote_author{
+    text-align:center;
+    display: flex;
+    font-weight: bold;
+    color:#1f2937;
+    font-size: 22px;
+    justify-content: center;
+}
+
+#bubble{
+    background-color: #3882f6;
+    border-radius: 15px;
+    display: flex;
+    padding: 15px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
+#call_to_action{
+    color: white;
+    font-weight: bolder;
+    padding-left: 15px;
+    padding-top: 6px;
+}
+
+#over_there{
+    color: white;
+    size:4px;
+    padding-left: 15px;
+
+}
+
+#sign_up{
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 10%;
+    border-width: 3px;
+    font-weight: bolder;
+    color: white;
+    align-items: flex-end;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+    
+
+}
+
+#text_lake{
+    
+}
+
+.last_header{
+    background-color: white;
+    padding: 90px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    
+}
+
+.footer{
+    background-color: rgb(31,41,55);
+    color: #f9faf8;
+    font-weight:500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    height: 70px;
+    width: fill;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
